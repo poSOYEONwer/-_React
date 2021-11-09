@@ -42,7 +42,7 @@ class App extends Component {
       }
       _article = <ReadContent title={_title} desc={_desc}></ReadContent>;
     } else if(this.state.mode === 'create') {
-      _article = <CreateContent></CreateContent>
+      _article = <CreateContent></CreateContent>;
     }
     return (
       <div className="App">
